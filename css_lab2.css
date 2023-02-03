@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+.clear{
+    clear: both;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    padding-top:15px ;
+}
+.head_col_lef{
+    width: 50%;
+    float: left;
+   
+}
+.head_col_right{
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+.head_col_lef a{
+    color: #111;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.bt{
+    padding: 3px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.bt:hover{
+    background-color: antiquewhite;
+}
+
+.head_col_right ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.head_col_right ul li{
+    display: inline-block;
+}
+
+#menu{
+    list-style-type: none;
+    background-color: #6e696b;
+    border:1px solid #333;
+    line-height: 40px;
+    padding-left: 20px;
+}
+#menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 10px;
+}
+#menu li a{
+    color: white;
+}
+.body{
+    width: 100%;
+    margin-top: 40px;
+    padding: 5px 5px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+}
+.bo_col_lef{
+    width: 73%;
+    float: left;
+}
+.content{
+    width: 100%;
+}
+.content h3{
+    color: rgb(139, 138, 138);
+    border-bottom: #6e696b solid 1px;
+    padding-bottom: 5px;
+    
+}
+.content h4{
+    color: blue;
+}
+.bo_col_right{
+    width: 20%;
+    float: right;
+}
+.im{
+    float: left;
+    padding:  10px 10px 10px 0px ;
+}
+.ls_img{
+    border:1px solid #333  ;
+    background-color: rgb(187, 184, 184);
+    padding: 3px;
+    text-align: center;
+}
+.ls_img img{
+    display: inline-block;
+    width: 140px;
+}
+.tm{
+    list-style-type: none;
+}
+.tm li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #6e696b dashed 2px;
+}
+#last{
+    border-bottom:  none;
+}
+#fix img{
+    height: 50px;
+    padding-top: 5px;
+}
+#link{
+    list-style-type: none;
+}
+.fo_col_lef{
+    float: left;
+    padding-left:5px;
+}
+.fo_col_right{
+    float: right;
+    padding-right: 10px;
+    text-align: right;
+}
+.fo_col_right ul li{
+    display: inline-block;
+}
